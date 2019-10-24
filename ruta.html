@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lista Doblemente Enlazadas</title>
-    <link rel="stylesheet" href="inventario.css">
+    <title>Listas Circulares</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<h2>Ruta:</h2>
-<div>
-    <div>
-        <label for="codigo">Número:</label>
-        <input type="number" id="codigo">
-    </div>
-    <br>
-    <div>
-        <label for="nombre">Matrícula:</label>
-        <input type="text" id="nombre"> 
-    </div>
-    <br>
-    <div>
-        <button type="button" id="btnAgregar">Agregar Ruta</button>
-    </div>
-    <br>
 
+<h1 class="ruta">Ruta</h1>
+
+<div>
+    <div class="ruta2">
+        <label for="numero">Número Ruta:</label>
+        <input type="number" id="numero" class="camion">
+    </div>
+    <div class="ruta2">
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula"> 
+    </div>
+    <div class="ruta2">
+        <button type="button" id="btnAgregar" 
+        class= "btn btn-primary">Agregar Ruta</button>
+    </div>
 </div>
 <br>
 <div>
-    <h3>Rutas Totales</h3>
+    <h1>Rutas</h1>
     <table id="tablaArt" class="table">
         <thead>
             <tr>
@@ -39,7 +38,7 @@
         </thead>
     </table>
 </div>
-<h4>toString</h4>
+<h1>Reporte</h1>
 <p id="toString"></p>
 </body>
 <script src="main.js" type="module"></script>

@@ -9,19 +9,23 @@ export default class Ruta{
     get numero(){
         return this._numero;
     }
+
     get matricula(){
         return this._matricula;
     }
+
     get siguiente(){
         return this._siguiente;
     }
+
     get anterior(){
         return this._anterior;
     }
-  
+
     set siguiente(siguiente){
         this._siguiente = siguiente;
     }
+    
     set anterior(anterior){
         this._anterior = anterior;
     }
